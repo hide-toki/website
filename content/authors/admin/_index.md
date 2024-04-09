@@ -1,124 +1,80 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+title: Ryuichi Yamamoto
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Engineer/Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+- name: LY Corporaiton
+  url: https://www.lycorp.co.jp/en/
+- name: Nagoya University
+  url: https://www.toda.is.i.nagoya-u.ac.jp/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a engineer/researcher passionate about speech synthesis. I love to write code and enjoy open-source collaboration on GitHub. Please feel free to reach out on Twitter and GitHub.
+# My research interests include speech synthesis, voice conversion, and machine learning.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+- Speech Synthesis
+- Voice Conversion
+- Machine Learning
+- Singing Voice Synthesis
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+  - course: Ph.D course in Informatics
+    institution: Nagoya University
+    year: April 2022 -
+  - course: M.Eng in Compute Science
+    institution: Nagoya Institude of Technology
+    year: 2013
+  - course: B.Eng in Computer Science
+    institution: Nagoya Institude of Technology
+    year: 2011
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+# - icon: envelope
+#   icon_pack: fas
+#   link: 'mailto:zryuichi@gmail.com'
+- icon: github
+  icon_pack: fab
+  link: https://github.com/r9y9
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/r9y9
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.jp/citations?user=PpjbClsAAAAJ&hl=en
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/zryuichi/
+# - icon: cv
+#   icon_pack: ai
+#   link: https://github.com/r9y9/cv/blob/gh-pages/ryuichi_cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: zryuichi@gmail.com
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+A software engineer/researcher at [LY Corporation](https://research.lycorp.co.jp/en).
+I am also a Ph.D. student at at Nagoya University, working with my advisor [Prof. Tomoki Toda](https://sites.google.com/site/tomokitoda/home_eng?authuser=0) at the [Toda Laboratory](https://www.toda.is.i.nagoya-u.ac.jp/).
+
+I enjoy both research and software development. My research interests include statistical speech synthesis, voice conversion, singing voice synthesis, and machine learning. Before joining LY Corporation (formerly known as LINE Corporation), I worked in music signal processing, music information retrieval, and computer vision.
+
+- {{< icon name="github" pack="fab" >}} {{< staticref "https://github.com/r9y9" "newtab" >}}GitHub{{< /staticref >}}
+- {{< icon name="google-scholar" pack="ai" >}} {{< staticref "https://scholar.google.co.jp/citations?user=PpjbClsAAAAJ&hl=en" "newtab" >}}Google Scholar{{< /staticref >}}
+- {{< icon name="download" pack="fas" >}} Download my {{< staticref "https://github.com/r9y9/cv/blob/gh-pages/ryuichi_cv.pdf" "newtab" >}}CV{{< /staticref >}}
